@@ -1,0 +1,392 @@
+@font-face {
+  font-family: oswald;
+  src: url(fonts/Oswald/Oswald-Regular.ttf);
+}
+@font-face {
+  font-family: oswaldLight;
+  src: url(fonts/Oswald/Oswald-Light.ttf);
+}
+@font-face {
+  font-family: opensans;
+  src: url(fonts/OpenSans/OpenSans-Regular.ttf);
+}
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+
+nav {
+  background-color: #000000;
+  font-size: 20px;
+}
+/* nav bar---------------------------------- */
+nav a {
+  text-decoration: none;
+  display: inline-block;
+  padding: 13px 15px;
+  color: white;
+  font-size: 14px;
+}
+nav a:hover {
+  background-color: #cccccc;
+  color: #000000;
+}
+nav #search {
+  float: right;
+}
+/* header ------------------------------------ */
+header {
+  background-color: #ffffff;
+  font-family: oswald;
+  text-align: center;
+  padding: 30px 20px;
+  font-size: 1.5rem;
+}
+header p {
+  font-size: 1rem;
+}
+header p span {
+  background-color: #000000;
+  color: #ffffff;
+  padding: 0px 9px;
+}
+.bigimg {
+  position: relative;
+}
+.bigimg div {
+  color: white;
+  position: absolute;
+  top: 35%;
+  padding: 25px;
+  font-family: oswald;
+}
+.bigimg div h2 {
+  font-family: oswaldLight;
+  font-size: 36px;
+  letter-spacing: 5px;
+}
+.bigimg div h1 {
+  font-size: 64px;
+  letter-spacing: 3px;
+}
+.bigimg div a {
+  text-decoration: none;
+  color: black;
+  background-color: rgb(160, 160, 160, 0.7);
+  padding: 12px 25px;
+  font-size: 1.1rem;
+}
+.bigimg div a:hover {
+  background-color: #f1f1f1;
+}
+/* main ------------------------------------ */
+
+main {
+  display: inline-block;
+  background-color: #f1f1f1;
+  width: 100%;
+  height: 100%;
+  padding: 25px 30px;
+}
+main #leftside {
+  float: left;
+  width: 66%;
+}
+/* the first left section in main--------------------*/
+main .firstart1 {
+  background-color: white;
+  padding: 25px;
+  float: left;
+  margin-bottom: 25px;
+}
+
+main section #tithead1 {
+  text-align: center;
+  font-family: oswaldLight;
+  font-size: 24px;
+  margin: 15px;
+}
+main section #titdesc1 {
+  text-align: center;
+  font-family: oswald;
+  font-size: 18px;
+  margin: 15px;
+}
+main section #titdesc1 span {
+  color: #7f7f7f;
+}
+main section #hint1 {
+  font-family: opensans;
+  font-size: 15px;
+  text-align: justify;
+  margin: 20px 0px;
+  line-height: 20px;
+}
+main section #hint1 span {
+  font-family: opensans;
+  font-weight: bold;
+  font-size: 15px;
+}
+main section #hint2 {
+  font-family: opensans;
+  font-size: 15px;
+  text-align: justify;
+  margin-bottom: 30px;
+  margin: 20px 0px;
+  line-height: 20px;
+}
+main section #like {
+  float: left;
+  text-decoration: none;
+  color: black;
+  background-color: white;
+  border: 1px solid #cccccc;
+  padding: 10px 15px;
+  font-weight: bold;
+  font-family: opensans;
+}
+main section #like:hover {
+  background-color: #cccccc;
+}
+main section #replies {
+  float: right;
+  text-decoration: none;
+  color: white;
+  background-color: black;
+  border: 1px solid #cccccc;
+  padding: 10px 15px;
+  font-weight: bold;
+  font-family: opensans;
+}
+main section #replies:hover {
+  background-color: #cccccc;
+  color: #000000;
+}
+main section #replies span {
+  background-color: white;
+  color: #000000;
+  padding: 0px 7px;
+}
+
+/* the right section in main--------------------*/
+main #rightside {
+  width: 32%;
+  float: right;
+  padding: 0px;
+  line-height: 23px;
+}
+main #rightside .firstRsec {
+  background-color: #000000;
+  padding-bottom: 10px;
+}
+main #rightside #avatargirl {
+  filter: grayscale(75%);
+  padding: 0px;
+  margin: 0px;
+}
+
+main #rightside .txt {
+  padding-left: 20px;
+  margin-bottom: 20px;
+  margin-top: 15px;
+}
+main #rightside #MyName {
+  color: white;
+  font-family: oswald;
+  font-size: 20px;
+}
+main #rightside #namedec {
+  color: white;
+  font-family: opensans;
+  font-size: 15px;
+  margin-top: 15px;
+}
+
+/* Popular Posts--------------------------------- */
+
+main #rightside .rightsection {
+  margin: 40px 0px;
+}
+main #rightside .rightsection h2 {
+  background-color: #000000;
+  font-family: oswaldLight;
+  padding: 20px;
+  font-size: 20px;
+  color: white;
+  margin: 0px;
+}
+main #rightside .rightsection .info {
+  background-color: white;
+  margin: 0px;
+}
+main #rightside .rightsection .info ul {
+  list-style-type: none;
+  padding: 0px;
+}
+main #rightside .rightsection .info ul li {
+  padding: 16px 16px;
+  border-top: 1px solid #ddd;
+}
+main #rightside .rightsection .info ul li:hover {
+  background-color: #cccccc;
+}
+main #rightside .rightsection .info ul li .leftinfo {
+  width: 12%;
+  float: left;
+}
+main #rightside .rightsection .info ul li .rightimg {
+  float: right;
+  width: 84%;
+}
+main #rightside .rightsection .info ul li .rightimg #Denim {
+  font-family: opensans;
+  font-size: 18px;
+  line-height: 27px;
+}
+main #rightside .rightsection .info ul li .rightimg #Sedmattis {
+  font-family: opensans;
+  font-size: 15px;
+  line-height: 23px;
+}
+.imgfillter {
+  filter: sepia(75%);
+}
+/* Advertise ----------------------------------- */
+main #rightside .rightsection .YourAD {
+  text-align: center;
+  background-color: white;
+  padding: 15px;
+}
+main #rightside .rightsection .YourAD #textarea {
+  height: 200px;
+  background-color: #f1f1f1;
+  font-size: 15px;
+  font-family: opensans;
+  padding: 90px 0px;
+}
+/* Tages -------------------------------------- */
+main #rightside .rightsection .tags {
+  background-color: white;
+  padding: 15px;
+  line-height: 40px;
+}
+main #rightside .rightsection .tags .Tagstype {
+  background-color: #f1f1f1;
+  font-size: 12px;
+  font-family: opensans;
+  padding: 1px 5px;
+}
+
+#Tagstype1 {
+  background-color: #000000;
+  color: white;
+  font-size: 17px;
+  font-family: opensans;
+  padding: 1px 5px;
+}
+
+/* Inspiration --------------------------------- */
+main #rightside .rightsection .inspirimgs {
+  padding: 15px;
+  background-color: white;
+}
+main #rightside .rightsection .inspirimgs1 {
+  float: left;
+  width: 50%;
+}
+main #rightside .rightsection .inspirimgs2 {
+  width: 50%;
+  float: right;
+}
+main #rightside .rightsection .inspirimgs1 > p {
+  padding: 5px;
+}
+main #rightside .rightsection .inspirimgs2 > p {
+  padding: 5px;
+}
+
+/* Follow Me ---------------------------------- */
+
+main #rightside .rightsection .followicons {
+  background-color: white;
+  padding: 8px;
+}
+main #rightside .rightsection .followicons a {
+  text-decoration: none;
+  display: inline-block;
+  padding: 5px 2px;
+  color: black;
+  font-size: 24px;
+  line-height: 24px;
+}
+main #rightside .rightsection .followicons a:hover {
+  color: #b0aeae;
+}
+/* Subscribe ------------------------------------ */
+main #rightside .rightsection > div {
+  background-color: white;
+  padding: 15px;
+}
+main #rightside .rightsection > div > p {
+  font-size: 15px;
+  font-family: opensans;
+  line-height: 23px;
+  padding: 8px;
+}
+main #rightside .rightsection > div > p .Email {
+  padding: 10px;
+}
+main #rightside .rightsection > div > p .subscribe {
+  background-color: #f44336;
+  color: white;
+  border: none;
+  width: 100%;
+  padding: 10px;
+}
+main #rightside .rightsection > div > p .subscribe:hover {
+  background-color: #b0aeae;
+  color: black;
+}
+
+/* class clear ---------------------------------*/
+.clear {
+  content: " ";
+  clear: both;
+}
+
+/* footer------------------------------------ */
+
+footer {
+  background-color: #616161;
+  height: 200px;
+  margin: auto;
+}
+footer div {
+  padding: 40px;
+}
+footer div #toup {
+  text-decoration: none;
+  background-color: black;
+  color: white;
+  font-family: opensans;
+  padding: 10px 25px;
+}
+footer div #toup:hover {
+  background-color: rgb(211, 205, 205);
+  color: #000000;
+}
+footer div a span {
+  padding-left: 15px;
+}
+footer p {
+  color: white;
+  text-decoration: none;
+  font-family: opensans;
+  padding-top: 25px;
+}
+footer p #w3 {
+  font-family: opensans;
+  color: white;
+  padding-left: 3px;
+}
