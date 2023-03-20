@@ -390,3 +390,50 @@ footer p #w3 {
   color: white;
   padding-left: 3px;
 }
+
+@media screen and (max-width: 600px) {
+  nav {
+    font-size: 10px;
+  }
+  nav a {
+    padding: 11px 12px;
+    font-size: 10px;
+  }
+  header {
+    padding: 30px 20px;
+    font-size: 1rem;
+  }
+  header p {
+    font-size: 0.8rem;
+  }
+
+  .bigimg div {
+    top: 30%;
+    padding: 25px;
+    font-family: oswald;
+  }
+  .bigimg div h2 {
+    font-family: oswaldLight;
+    font-size: 18px;
+    letter-spacing: 5px;
+  }
+  .bigimg div h1 {
+    font-size: 23px;
+    letter-spacing: 3px;
+  }
+  .bigimg div a {
+    padding: 5px 10px;
+    font-size: 0.8rem;
+  }
+
+  main {
+    padding: 13px 15px;
+  }
+
+  main #leftside {
+    width: 100%;
+  }
+  main #rightside {
+    width: 100%;
+  }
+}
